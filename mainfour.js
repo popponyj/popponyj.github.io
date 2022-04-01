@@ -31,7 +31,7 @@ let myHeading = document.querySelector('h1');
       setUserName();
     } else {
       localStorage.setItem('name', myName);
-      myHeading.innerHTML = 'Mozilla 酷毙了，' + myName;
+      myHeading.innerHTML = '史上最强产品：' + myName;
     }
   }
 
